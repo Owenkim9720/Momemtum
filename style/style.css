@@ -1,0 +1,87 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container{
+     min-height:100vh;
+     /* viewport height*/
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     /* color:white; */
+ }
+.timer-wrapper00{
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+
+}
+.timer{
+     font-weight: 500;
+     font-size: 168px;
+     line-height: 168px;
+     color: white;
+ }
+.timer-content{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.memo-wrapper{
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.memo-input{
+    margin-top: 30px;
+    width: 500px;
+    background-color: transparent;
+}
+.memo{
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+}
+.memo-title{
+    color: white;
+    margin-top: 10px;
+
+}
+
+.card-header{
+    color:white;
+}
+.card-body{
+    color:white
+}
+.card-img-top{
+   
+    height: 155px;
+}
+
+.modal-button{
+    position: fixed;
+    right:40px;
+    top:40px;
+    width: 130px;
+    height: 100px;
+    background-size: cover;
+    cursor: pointer;
+}
+.local{
+    position: relative;
+    top: 100px;
+    right:10px;
+    margin-top: 10px;
+    color:white;
+    width: 100px;
+}
